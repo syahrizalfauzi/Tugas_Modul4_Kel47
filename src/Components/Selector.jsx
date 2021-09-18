@@ -5,6 +5,7 @@ import {
   FetchingContext,
 } from "../App";
 import Sorter from "./Sorter";
+import "./Selector.css";
 
 const Selector = () => {
   const isFetching = useContext(FetchingContext);

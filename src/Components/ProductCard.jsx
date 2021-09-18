@@ -1,4 +1,5 @@
 import { useState } from "react";
+import './ProductCard.css';
 
 const ProductCard = (props) => {
   const [showDesc, setShowDesc] = useState(false);

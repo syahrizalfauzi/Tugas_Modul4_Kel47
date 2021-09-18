@@ -1,6 +1,7 @@
 import { useContext, useEffect, useState } from "react";
 import { FetchingContext, ProductStateContext } from "../App";
 import ProductCard from "./ProductCard";
+import "./Sorter.css";
 
 const Sorter = () => {
   const [sortBy, setSortBy] = useState("title");
